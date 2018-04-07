@@ -1,0 +1,73 @@
+@font-face {
+    font-family: DINPro-B;
+    src: url(assets\font\DINPro-Bold_13934.ttf);
+    font-family: DINPro-R;
+    src: url(assets\font\DINPro-Regular_13937.ttf);
+}
+* {
+ font-family: DINPro-R;
+}
+
+.index{
+    background-color: #ffd11b;
+}
+.main{
+    padding-top:50px;
+}
+
+.svg-images{
+    width:200px;
+}
+.features-svg{
+    width:40px;
+}
+tr td {
+width: 50%;
+}
+.paragraph{
+text-indent: 20px;
+}
+
+
+/* My Font Styles */
+.top{
+padding-top: 100px;
+}
+.little{
+    padding-top:50px;
+}
+.black{
+    color: black;
+}
+.white{
+    color:white;
+}
+.fav{
+    color:#ffd11b;
+}
+.bold{
+    font-family: DINPro-B;
+    font-weight: bold;
+}
+
+/* Navbar Custom */
+.navbar-custom {
+    background-color: #ffd11b;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
